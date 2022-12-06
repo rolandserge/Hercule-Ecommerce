@@ -1,0 +1,92 @@
+.titre_produit {
+     /* border: 1px solid; */
+     width: 74%;
+     text-align: left;
+     margin-top: 1.5em;
+     height: 8vh;
+     padding-left: 1em;
+     display: flex;
+     background: #f6f6f6;
+     align-items: center;
+}
+.detail_class {
+     display: flex;
+     justify-content: space-around;
+     width: 80%;
+     /* border: 1px solid; */
+     margin: 1em 0 6em 0;
+}
+.detail_class .detail_class_img {
+     width: 38%;
+     height: 52vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+
+}
+.detail_class .detail_class_img .img {
+     width: 100%;
+     height: 80%;
+}
+.detail_class .detail_class_infos {
+     width: 50%;
+     display: flex;
+     /* border: 1px solid; */
+     height: 100%;
+     text-align: left;
+     justify-content: space-around;
+     flex-flow: column wrap;
+}
+.detail_class .detail_class_infos .option {
+     /* border: 1px solid; */
+     height: 12vh;
+     display: flex;
+     margin: 0.6em 0;
+     justify-content: space-around;
+     flex-direction: column;
+}
+.detail_class .detail_class_infos .option p {
+     font-weight: bold;
+     font-size: 1.1em;
+}
+.detail_class .detail_class_infos .option .option_button {
+     /* border: 1px solid; */
+     display: flex;
+     justify-content: space-between;
+     height: 7vh;
+     align-items: center;
+}
+.detail_class .detail_class_infos .option .option_button button {
+     border: 1px solid #6a00f4;
+     padding: 0.5em 1em;
+     background: white;
+     color: black;
+     cursor: pointer;
+     border-radius: 3px;
+}
+.detail_class .detail_class_infos .option .option_button .active {
+     background: #6a00f4;
+     color: white;
+}
+.detail_class .detail_class_infos .description {
+     line-height: 1.6;
+     margin-bottom: 0.7em;
+}
+.detail_class .detail_class_infos .description_span {
+     font-weight: bold;
+     border-bottom: 1px solid;
+     font-size: 1.2em;
+}
+.detail_class .detail_class_infos p {
+     font-size: 1.1em;
+}
+.detail_class .detail_class_infos .add_button button {
+     border: none;
+     color: white;
+     background: #6a00f4;
+     cursor: pointer;
+     font-size: 1.3em;
+     padding: 0.6em 1.1em;
+     border-radius: 3px;
+}

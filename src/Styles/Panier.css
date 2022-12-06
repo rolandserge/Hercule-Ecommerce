@@ -1,0 +1,137 @@
+/* * {
+     border: 1px solid;
+} */
+.panier_recap {
+     text-align: center;
+     font-size: 1.7em;
+     /* border: 1px solid; */
+     height: 6vh;
+     margin-top: 0.2em;
+     letter-spacing: 2px;
+}
+.paniers {
+     display: flex;
+     justify-content: space-around;
+     width: 80%;
+}
+.paniers .listes_paniers {
+     width: 70%;
+     display: flex;
+     /* border: 1px solid; */
+     justify-content: space-around;
+     flex-wrap: wrap;
+     height: 100%;
+}
+.panier_div {
+     width: 100%;
+     display: flex;
+     margin: 0.3em 0;
+     height: 15vh;
+     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+     justify-content: space-around;
+}
+.paniers .listes_paniers .image_panier {
+     width: 15%;
+     height: 15vh;
+     overflow: hidden;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 0.2em;
+}
+.paniers .listes_paniers .image_panier img {
+     height: 70%;
+     width: 70%;
+}
+.paniers .listes_paniers .panier_nom_produit {
+     width: 55%;
+     display: flex;
+     text-align: left;
+     flex-direction: column;
+     justify-content: space-around;
+}
+.paniers .listes_paniers .panier_nom_produit p {
+     font-size: 1em;
+}
+.paniers .listes_paniers .panier_nom_produit button {
+     border: none;
+     width: 20%;
+     height: 4vh;
+     font-weight: 500;
+     font-size: 0.9em;
+     color: #6a00f4;
+     background: #b695e2;
+     /* transition: 2s; */
+     opacity: 0.5;
+     border-radius: 3px;
+}
+
+.paniers .listes_paniers .panier_action_button {
+     width: 25%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+}
+.paniers .listes_paniers .panier_action_button .qtn {
+     display: flex;
+     width: 50%;
+     justify-content: space-between;
+     align-items: center;
+}
+.paniers .listes_paniers .panier_action_button .qtn button {
+     border: none;
+     /* height: 4vh; */
+     /* width: 30%; */
+     padding: 0.1em 0.4em;
+     font-weight: 500;
+     border-radius: 3px;
+     font-size: 1.3em;
+     color: white;
+     background: #6a00f4;
+}
+.paniers .listes_paniers .panier_action_button p {
+     font-weight: 500;
+     font-size: 1.2em;
+}
+.panier_button {
+     margin: 1em 0;
+     /* border: 1px solid; */
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.panier_button button {
+     border: none;
+     font-size: 1.1em;
+     padding: 0.6em 1.3em;
+     border-radius: 3px;
+     color: white;
+     background: orange;
+     cursor: pointer;
+
+}
+.panier_button .link_home {
+     text-decoration: none;
+     color: black;
+     font-size: 1.2em ;
+}
+.paniers .bilan_panier {
+     width: 28%;
+     /* border: 1px solid; */
+     background: #f6f6f6;
+     display: flex;
+     justify-content: space-around;
+     flex-direction: column;
+     height: 50vh;
+}
+.paniers .bilan_panier .commander {
+     text-decoration: none;
+     background: #6a00f4;
+     border: none;
+     color: white;
+     padding: 0.6em 1em;
+     border-radius: 3px;
+     font-size: 1.1em;
+}

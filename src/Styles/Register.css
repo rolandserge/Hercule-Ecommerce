@@ -1,0 +1,70 @@
+.body_register .formulaire {
+     background: lightslategray;
+     /* background: transparent; */
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.body_register .formulaire form {
+     display: flex;
+     height: 65vh;
+     width: 40%;
+     padding: 2em;
+     background: white;
+     justify-content: space-between;
+     flex-direction: column;
+}
+.body_register .formulaire form div {
+     display: flex;
+     /* border: 1px solid; */
+     height: 10vh;
+     flex-direction: column;
+     justify-content: space-between;
+}
+.body_register .formulaire form div input {
+     height: 6vh;
+     padding-left: 1em;
+     border: 1px solid;
+     border-radius: 3px;
+}
+.body_register .formulaire form .button_register {
+     display: flex;
+     justify-content: right;
+     flex-direction: row;
+     height: 6.5vh;
+}
+.body_register .formulaire form .button_register button {
+     border: none;
+     width: 35%;
+     border-radius: 3px;
+     font-size: 1.3em;
+     background: #6a00f4;
+     color: white;
+}
+.body_register .formulaire form .retour_register {
+     /* border: 1px solid; */
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     height: 6vh;
+     align-items: center;
+}
+.body_register .formulaire form .retour_register p {
+     width: 25%;
+     border: none;
+     background: black;
+     color: #fff;
+     text-align: center;
+     padding-top: 0.5em;
+     cursor: pointer;
+     height: 100%;
+     border-radius: 3px;
+     font-size: 1em;
+}
+.body_register .formulaire form .retour_register .login_register {
+     text-decoration: none;
+     font-size: 1.2em;
+     font-weight: 500;
+     color: black;
+}

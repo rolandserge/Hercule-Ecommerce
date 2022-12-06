@@ -1,0 +1,81 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.body {
+     height: 100vh;
+     background: #6a00f4;
+}
+.body .logo {
+     width: 7%;
+     height: 12vh;
+     margin: 0 0 1em 1em;
+     border: 1px solid;
+}
+.body .content_acceuil {
+     display: flex;
+     justify-content: space-around;
+     /* border: 1px solid; */
+}
+.body .content_acceuil .content_acceuil_infos {
+     width: 45%;
+     /* border: 1px solid; */
+     display: flex;
+     justify-content: space-around;
+     flex-direction: column;
+}
+.body .content_acceuil .content_acceuil_infos .acceuil_infos {
+     /* border: 1px solid; */
+     /* height: 12vh; */
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     color: white;
+}
+.body .content_acceuil .content_acceuil_infos .acceuil_infos h1 {
+     font-size: 4.1em;
+}
+.body .content_acceuil .content_acceuil_infos .acceuil_infos p {
+     /* border: 1px solid; */
+     margin-top: 1em;
+     font-size: 1.1em;
+     overflow: hidden;
+}
+.body .content_acceuil .content_acceuil_infos .commencer {
+     text-decoration: none;
+     color: black;
+     font-size: 1.2em;
+     padding: 0.8em 1.5em;
+     border-radius: 5rem;
+     font-weight: 500;
+     background: white;
+}
+.body .content_acceuil .content_acceuil_jeu {
+     width: 45%;
+     /* border: 1px solid; */
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+     align-items: center;
+}
+.body .content_acceuil .content_acceuil_jeu .image_giff {
+     /* border: 1px solid; */
+     height: 85%;
+}
+.body .content_acceuil .content_acceuil_jeu .jouer_button {
+     width: 25%;
+     height: 7vh;
+     /* border: 1px solid; */
+}
+.body .content_acceuil .content_acceuil_jeu button {
+     border: none;
+     /* padding: 1em 0.5em; */
+     width: 100%;
+     font-size: 1.4em;
+     background: white;
+     border-radius: 3px;
+     /* margin-top: 0.5em; */
+     height: 100%;
+     /* border: 1px solid; */
+}

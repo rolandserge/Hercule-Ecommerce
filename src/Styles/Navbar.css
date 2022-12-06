@@ -1,0 +1,42 @@
+.navbar {
+     height: 13vh;
+     background: #6a00f4;
+}
+.navbar .header_div {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 90%;
+}
+.navbar .header_div .header_div_logo {
+     width: 15%;
+     height: 100%;
+     margin-top: 0.5em;
+     overflow: hidden;
+}
+.navbar .header_div .header_div_logo img {
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+}
+.navbar .header_div .header_div_authentification {
+     width: 30%;
+     display: flex;
+     justify-content: space-around;
+}
+.navbar .header_div .header_div_authentification .register {
+     text-decoration: none;
+     padding: 0.6em 1.5em;
+     background: white;
+     font-size: 1.1em;
+     color: black;
+     border-radius: 3px;
+}
+.navbar .header_div .header_div_authentification .login {
+     text-decoration: none;
+     color: white;
+     background: orange;
+     font-size: 1.1em;
+     border-radius: 3px;
+     padding: 0.6em 1.5em;
+}
